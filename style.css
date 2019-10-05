@@ -6,12 +6,12 @@ html {
   scroll-behavior: smooth;
   font-family: "Raleway";
   background-color: #BDBDBD;
-  left: 0;
-  right: 0;
+
 
 }
 main {
   margin-top: 6rem; /*this gives space for the navbar*/
+  width: 100%;
 }
 
 #navbar {
@@ -22,8 +22,13 @@ main {
   width: 100%;
   border-bottom: 2px solid gray;
   padding: 0;
-
 }
+
+#navSection{
+  display: flex;
+  align-items: center;
+}
+
 #navbar ul {
   display: flex;
   align-items: center;
@@ -36,7 +41,7 @@ main {
 }
 
 .nav-link {
-  display: inline-block;
+  display: inline-flex;
   padding: 3rem;
   height: 100%;
   color: #212121;
